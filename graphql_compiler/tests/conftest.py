@@ -6,11 +6,11 @@ import pytest
 @pytest.fixture(scope='session')
 def init_graph():
     graph_name = 'animals'
-    graph, client = get_test_graph(graph_name)
-    return client
+    graph_client = get_test_graph(graph_name)
+    return graph_client
 
 
 @pytest.fixture(scope='class')
 def test_db(request, init_graph):
-    """Get a connection pool for an initialized defacto db, with all test data imported."""
-    request.cls.client = init_graph
+    """Get a connection pool for an initialized db, with all test data imported."""
+    request.cls.graph_client = init_graph

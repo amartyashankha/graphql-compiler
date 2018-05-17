@@ -41,6 +41,22 @@ class OrientdbMatchQueryTests(TestCase):
     def test_immediate_output(self):
         test_data = test_input_data.immediate_output()
 
-        rows = execute_graphql(self.schema, test_data, self.client)
+        rows = execute_graphql(self.schema, test_data, self.graph_client)
+
+        self.assertMatchSnapshot(rows)
+
+    @pytest.mark.usefixtures('test_db')
+    def test_traverse_and_output(self):
+        test_data = test_input_data.traverse_and_output()
+
+        rows = execute_graphql(self.schema, test_data, self.graph_client)
+
+        self.assertMatchSnapshot(rows)
+
+    @pytest.mark.usefixtures('test_db')
+    def test_optional_traverse_after_mandatory_traverse(self):
+        test_data = test_input_data.optional_traverse_after_mandatory_traverse()
+
+        rows = execute_graphql(self.schema, test_data, self.graph_client)
 
         self.assertMatchSnapshot(rows)
