@@ -1095,3 +1095,2208 @@ snapshots['OrientdbMatchQueryTests::test_traverse_and_output 1'] = [
         'parent_name': 'Dragon__(4(03(013))1)'
     }
 ]
+
+snapshots['OrientdbMatchQueryTests::test_optional_and_deep_traverse 1'] = [
+    {
+        'animal_name': 'Nazgul__(3(203)(1(30(4(204)2))(4((203)40)0)))'
+    },
+    {
+        'animal_name': 'Nazgul__(((203)40)(4(204)2)(03(4((203)40)0)))'
+    },
+    {
+        'animal_name': 'Hippogriff__((314)2(312))'
+    },
+    {
+        'animal_name': 'Hippogriff__(2(314)3)'
+    },
+    {
+        'animal_name': 'Hippogriff__((312)10)'
+    },
+    {
+        'animal_name': 'Hippogriff__(340)'
+    },
+    {
+        'animal_name': 'Hippogriff__(((312)32)1((314)(312)((312)32)))'
+    },
+    {
+        'animal_name': 'Pteranodon__(1(412)((321)31))'
+    },
+    {
+        'animal_name': 'Hippogriff__(3((312)32)(314))'
+    },
+    {
+        'animal_name': 'Pteranodon__(((2(((321)31)2(412))(321))(((321)31)2(412))4)((321)31)4)'
+    },
+    {
+        'animal_name': 'Pteranodon__((412)((2(((321)31)2(412))(321))(((321)31)2(412))4)(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321)))'
+    },
+    {
+        'animal_name': 'Dragon__((2(4(03(013))1)(013))(304)(4(03(013))1))'
+    },
+    {
+        'animal_name': 'Dragon__(4(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))((304)(2(4(03(013))1)(013))(20(03(013)))))'
+    },
+    {
+        'animal_name': 'Pteranodon__0'
+    },
+    {
+        'animal_name': 'Dragon__(2(4(03(013))1)(013))',
+        'parent_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_name': 'Dragon__(304)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(2(4(03(013))1)(013))',
+        'parent_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(2(4(03(013))1)(013))',
+        'parent_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_name': 'Dragon__(20(03(013)))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(2(4(03(013))1)(013))',
+        'parent_name': 'Dragon__((2(4(03(013))1)(013))(304)(4(03(013))1))',
+        'sibling_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(2(4(03(013))1)(013))',
+        'parent_name': 'Dragon__((2(4(03(013))1)(013))(304)(4(03(013))1))',
+        'sibling_name': 'Dragon__(304)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(2(4(03(013))1)(013))',
+        'parent_name': 'Dragon__((2(4(03(013))1)(013))(304)(4(03(013))1))',
+        'sibling_name': 'Dragon__(4(03(013))1)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Nazgul__(30(4(204)2))',
+        'parent_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'sibling_name': 'Nazgul__1',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(30(4(204)2))',
+        'parent_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'sibling_name': 'Nazgul__(30(4(204)2))',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(30(4(204)2))',
+        'parent_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'sibling_name': 'Nazgul__(4((203)40)0)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Pteranodon__((321)31)',
+        'parent_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_name': 'Pteranodon__((321)31)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((321)31)',
+        'parent_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_name': 'Pteranodon__2',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((321)31)',
+        'parent_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_name': 'Pteranodon__(412)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((321)31)',
+        'parent_name': 'Pteranodon__(((2(((321)31)2(412))(321))(((321)31)2(412))4)((321)31)4)',
+        'sibling_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((321)31)',
+        'parent_name': 'Pteranodon__(((2(((321)31)2(412))(321))(((321)31)2(412))4)((321)31)4)',
+        'sibling_name': 'Pteranodon__((321)31)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((321)31)',
+        'parent_name': 'Pteranodon__(((2(((321)31)2(412))(321))(((321)31)2(412))4)((321)31)4)',
+        'sibling_name': 'Pteranodon__4',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((321)31)',
+        'parent_name': 'Pteranodon__(1(412)((321)31))',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((321)31)',
+        'parent_name': 'Pteranodon__(1(412)((321)31))',
+        'sibling_name': 'Pteranodon__(412)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((321)31)',
+        'parent_name': 'Pteranodon__(1(412)((321)31))',
+        'sibling_name': 'Pteranodon__((321)31)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Hippogriff__4',
+        'parent_name': 'Hippogriff__(314)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__4',
+        'parent_name': 'Hippogriff__(314)',
+        'sibling_name': 'Hippogriff__1',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__4',
+        'parent_name': 'Hippogriff__(314)',
+        'sibling_name': 'Hippogriff__4',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__4',
+        'parent_name': 'Hippogriff__(340)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__4',
+        'parent_name': 'Hippogriff__(340)',
+        'sibling_name': 'Hippogriff__4',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__4',
+        'parent_name': 'Hippogriff__(340)',
+        'sibling_name': 'Hippogriff__0',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Pteranodon__3',
+        'parent_name': 'Pteranodon__(321)',
+        'sibling_name': 'Pteranodon__3',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__3',
+        'parent_name': 'Pteranodon__(321)',
+        'sibling_name': 'Pteranodon__2',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__3',
+        'parent_name': 'Pteranodon__(321)',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__3',
+        'parent_name': 'Pteranodon__((321)31)',
+        'sibling_name': 'Pteranodon__(321)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__3',
+        'parent_name': 'Pteranodon__((321)31)',
+        'sibling_name': 'Pteranodon__3',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__3',
+        'parent_name': 'Pteranodon__((321)31)',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Dragon__1',
+        'parent_name': 'Dragon__(013)',
+        'sibling_name': 'Dragon__0',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__1',
+        'parent_name': 'Dragon__(013)',
+        'sibling_name': 'Dragon__1',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__1',
+        'parent_name': 'Dragon__(013)',
+        'sibling_name': 'Dragon__3',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__1',
+        'parent_name': 'Dragon__(4(03(013))1)',
+        'sibling_name': 'Dragon__4',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__1',
+        'parent_name': 'Dragon__(4(03(013))1)',
+        'sibling_name': 'Dragon__(03(013))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__1',
+        'parent_name': 'Dragon__(4(03(013))1)',
+        'sibling_name': 'Dragon__1',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(304)',
+        'parent_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_name': 'Dragon__(304)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(304)',
+        'parent_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(304)',
+        'parent_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_name': 'Dragon__(20(03(013)))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(304)',
+        'parent_name': 'Dragon__((2(4(03(013))1)(013))(304)(4(03(013))1))',
+        'sibling_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(304)',
+        'parent_name': 'Dragon__((2(4(03(013))1)(013))(304)(4(03(013))1))',
+        'sibling_name': 'Dragon__(304)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(304)',
+        'parent_name': 'Dragon__((2(4(03(013))1)(013))(304)(4(03(013))1))',
+        'sibling_name': 'Dragon__(4(03(013))1)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Nazgul__(204)',
+        'parent_name': 'Nazgul__(4(204)2)',
+        'sibling_name': 'Nazgul__4',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(204)',
+        'parent_name': 'Nazgul__(4(204)2)',
+        'sibling_name': 'Nazgul__(204)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(204)',
+        'parent_name': 'Nazgul__(4(204)2)',
+        'sibling_name': 'Nazgul__2',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Dragon__2',
+        'parent_name': 'Dragon__(20(03(013)))',
+        'sibling_name': 'Dragon__2',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__2',
+        'parent_name': 'Dragon__(20(03(013)))',
+        'sibling_name': 'Dragon__0',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__2',
+        'parent_name': 'Dragon__(20(03(013)))',
+        'sibling_name': 'Dragon__(03(013))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__2',
+        'parent_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_name': 'Dragon__2',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__2',
+        'parent_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_name': 'Dragon__(4(03(013))1)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__2',
+        'parent_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_name': 'Dragon__(013)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__2',
+        'parent_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'sibling_name': 'Dragon__2',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__2',
+        'parent_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'sibling_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__2',
+        'parent_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'sibling_name': 'Dragon__(20(03(013)))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Hippogriff__0',
+        'parent_name': 'Hippogriff__(340)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__0',
+        'parent_name': 'Hippogriff__(340)',
+        'sibling_name': 'Hippogriff__4',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__0',
+        'parent_name': 'Hippogriff__(340)',
+        'sibling_name': 'Hippogriff__0',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__0',
+        'parent_name': 'Hippogriff__((312)10)',
+        'sibling_name': 'Hippogriff__(312)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__0',
+        'parent_name': 'Hippogriff__((312)10)',
+        'sibling_name': 'Hippogriff__1',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__0',
+        'parent_name': 'Hippogriff__((312)10)',
+        'sibling_name': 'Hippogriff__0',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Nazgul__1',
+        'parent_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'sibling_name': 'Nazgul__1',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__1',
+        'parent_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'sibling_name': 'Nazgul__(30(4(204)2))',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__1',
+        'parent_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'sibling_name': 'Nazgul__(4((203)40)0)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'parent_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'sibling_name': 'Dragon__2',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'parent_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'sibling_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'parent_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'sibling_name': 'Dragon__(20(03(013)))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'parent_name': 'Dragon__(4(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))((304)(2(4(03(013))1)(013))(20(03(013)))))',
+        'sibling_name': 'Dragon__4',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'parent_name': 'Dragon__(4(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))((304)(2(4(03(013))1)(013))(20(03(013)))))',
+        'sibling_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'parent_name': 'Dragon__(4(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))((304)(2(4(03(013))1)(013))(20(03(013)))))',
+        'sibling_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Hippogriff__((312)32)',
+        'parent_name': 'Hippogriff__((314)(312)((312)32))',
+        'sibling_name': 'Hippogriff__(314)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__((312)32)',
+        'parent_name': 'Hippogriff__((314)(312)((312)32))',
+        'sibling_name': 'Hippogriff__(312)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__((312)32)',
+        'parent_name': 'Hippogriff__((314)(312)((312)32))',
+        'sibling_name': 'Hippogriff__((312)32)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__((312)32)',
+        'parent_name': 'Hippogriff__(3((312)32)(314))',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__((312)32)',
+        'parent_name': 'Hippogriff__(3((312)32)(314))',
+        'sibling_name': 'Hippogriff__((312)32)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__((312)32)',
+        'parent_name': 'Hippogriff__(3((312)32)(314))',
+        'sibling_name': 'Hippogriff__(314)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__((312)32)',
+        'parent_name': 'Hippogriff__(((312)32)1((314)(312)((312)32)))',
+        'sibling_name': 'Hippogriff__((312)32)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__((312)32)',
+        'parent_name': 'Hippogriff__(((312)32)1((314)(312)((312)32)))',
+        'sibling_name': 'Hippogriff__1',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__((312)32)',
+        'parent_name': 'Hippogriff__(((312)32)1((314)(312)((312)32)))',
+        'sibling_name': 'Hippogriff__((314)(312)((312)32))',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Nazgul__(4((203)40)0)',
+        'parent_name': 'Nazgul__(03(4((203)40)0))',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(4((203)40)0)',
+        'parent_name': 'Nazgul__(03(4((203)40)0))',
+        'sibling_name': 'Nazgul__3',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(4((203)40)0)',
+        'parent_name': 'Nazgul__(03(4((203)40)0))',
+        'sibling_name': 'Nazgul__(4((203)40)0)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(4((203)40)0)',
+        'parent_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'sibling_name': 'Nazgul__1',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(4((203)40)0)',
+        'parent_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'sibling_name': 'Nazgul__(30(4(204)2))',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(4((203)40)0)',
+        'parent_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'sibling_name': 'Nazgul__(4((203)40)0)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Pteranodon__(((321)31)2(412))',
+        'parent_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'sibling_name': 'Pteranodon__2',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(((321)31)2(412))',
+        'parent_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'sibling_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(((321)31)2(412))',
+        'parent_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'sibling_name': 'Pteranodon__(321)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(((321)31)2(412))',
+        'parent_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(((321)31)2(412))',
+        'parent_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(((321)31)2(412))',
+        'parent_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_name': 'Pteranodon__4',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Hippogriff__(314)',
+        'parent_name': 'Hippogriff__(2(314)3)',
+        'sibling_name': 'Hippogriff__2',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(314)',
+        'parent_name': 'Hippogriff__(2(314)3)',
+        'sibling_name': 'Hippogriff__(314)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(314)',
+        'parent_name': 'Hippogriff__(2(314)3)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(314)',
+        'parent_name': 'Hippogriff__((314)2(312))',
+        'sibling_name': 'Hippogriff__(314)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(314)',
+        'parent_name': 'Hippogriff__((314)2(312))',
+        'sibling_name': 'Hippogriff__2',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(314)',
+        'parent_name': 'Hippogriff__((314)2(312))',
+        'sibling_name': 'Hippogriff__(312)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(314)',
+        'parent_name': 'Hippogriff__((314)(312)((312)32))',
+        'sibling_name': 'Hippogriff__(314)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(314)',
+        'parent_name': 'Hippogriff__((314)(312)((312)32))',
+        'sibling_name': 'Hippogriff__(312)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(314)',
+        'parent_name': 'Hippogriff__((314)(312)((312)32))',
+        'sibling_name': 'Hippogriff__((312)32)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(314)',
+        'parent_name': 'Hippogriff__(3((312)32)(314))',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(314)',
+        'parent_name': 'Hippogriff__(3((312)32)(314))',
+        'sibling_name': 'Hippogriff__((312)32)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(314)',
+        'parent_name': 'Hippogriff__(3((312)32)(314))',
+        'sibling_name': 'Hippogriff__(314)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Pteranodon__4',
+        'parent_name': 'Pteranodon__(412)',
+        'sibling_name': 'Pteranodon__4',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__4',
+        'parent_name': 'Pteranodon__(412)',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__4',
+        'parent_name': 'Pteranodon__(412)',
+        'sibling_name': 'Pteranodon__2',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__4',
+        'parent_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__4',
+        'parent_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__4',
+        'parent_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_name': 'Pteranodon__4',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__4',
+        'parent_name': 'Pteranodon__(((2(((321)31)2(412))(321))(((321)31)2(412))4)((321)31)4)',
+        'sibling_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__4',
+        'parent_name': 'Pteranodon__(((2(((321)31)2(412))(321))(((321)31)2(412))4)((321)31)4)',
+        'sibling_name': 'Pteranodon__((321)31)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__4',
+        'parent_name': 'Pteranodon__(((2(((321)31)2(412))(321))(((321)31)2(412))4)((321)31)4)',
+        'sibling_name': 'Pteranodon__4',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'parent_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'parent_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'parent_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_name': 'Pteranodon__4',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Dragon__(03(013))',
+        'parent_name': 'Dragon__(4(03(013))1)',
+        'sibling_name': 'Dragon__4',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(03(013))',
+        'parent_name': 'Dragon__(4(03(013))1)',
+        'sibling_name': 'Dragon__(03(013))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(03(013))',
+        'parent_name': 'Dragon__(4(03(013))1)',
+        'sibling_name': 'Dragon__1',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(03(013))',
+        'parent_name': 'Dragon__(20(03(013)))',
+        'sibling_name': 'Dragon__2',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(03(013))',
+        'parent_name': 'Dragon__(20(03(013)))',
+        'sibling_name': 'Dragon__0',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(03(013))',
+        'parent_name': 'Dragon__(20(03(013)))',
+        'sibling_name': 'Dragon__(03(013))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Nazgul__(203)',
+        'parent_name': 'Nazgul__((203)40)',
+        'sibling_name': 'Nazgul__(203)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(203)',
+        'parent_name': 'Nazgul__((203)40)',
+        'sibling_name': 'Nazgul__4',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(203)',
+        'parent_name': 'Nazgul__((203)40)',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(203)',
+        'parent_name': 'Nazgul__(3(203)(1(30(4(204)2))(4((203)40)0)))',
+        'sibling_name': 'Nazgul__3',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(203)',
+        'parent_name': 'Nazgul__(3(203)(1(30(4(204)2))(4((203)40)0)))',
+        'sibling_name': 'Nazgul__(203)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(203)',
+        'parent_name': 'Nazgul__(3(203)(1(30(4(204)2))(4((203)40)0)))',
+        'sibling_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Dragon__3',
+        'parent_name': 'Dragon__(013)',
+        'sibling_name': 'Dragon__0',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__3',
+        'parent_name': 'Dragon__(013)',
+        'sibling_name': 'Dragon__1',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__3',
+        'parent_name': 'Dragon__(013)',
+        'sibling_name': 'Dragon__3',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__3',
+        'parent_name': 'Dragon__(304)',
+        'sibling_name': 'Dragon__3',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__3',
+        'parent_name': 'Dragon__(304)',
+        'sibling_name': 'Dragon__0',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__3',
+        'parent_name': 'Dragon__(304)',
+        'sibling_name': 'Dragon__4',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__3',
+        'parent_name': 'Dragon__(03(013))',
+        'sibling_name': 'Dragon__0',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__3',
+        'parent_name': 'Dragon__(03(013))',
+        'sibling_name': 'Dragon__3',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__3',
+        'parent_name': 'Dragon__(03(013))',
+        'sibling_name': 'Dragon__(013)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Hippogriff__1',
+        'parent_name': 'Hippogriff__(314)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__1',
+        'parent_name': 'Hippogriff__(314)',
+        'sibling_name': 'Hippogriff__1',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__1',
+        'parent_name': 'Hippogriff__(314)',
+        'sibling_name': 'Hippogriff__4',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__1',
+        'parent_name': 'Hippogriff__(312)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__1',
+        'parent_name': 'Hippogriff__(312)',
+        'sibling_name': 'Hippogriff__1',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__1',
+        'parent_name': 'Hippogriff__(312)',
+        'sibling_name': 'Hippogriff__2',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__1',
+        'parent_name': 'Hippogriff__(((312)32)1((314)(312)((312)32)))',
+        'sibling_name': 'Hippogriff__((312)32)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__1',
+        'parent_name': 'Hippogriff__(((312)32)1((314)(312)((312)32)))',
+        'sibling_name': 'Hippogriff__1',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__1',
+        'parent_name': 'Hippogriff__(((312)32)1((314)(312)((312)32)))',
+        'sibling_name': 'Hippogriff__((314)(312)((312)32))',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__1',
+        'parent_name': 'Hippogriff__((312)10)',
+        'sibling_name': 'Hippogriff__(312)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__1',
+        'parent_name': 'Hippogriff__((312)10)',
+        'sibling_name': 'Hippogriff__1',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__1',
+        'parent_name': 'Hippogriff__((312)10)',
+        'sibling_name': 'Hippogriff__0',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Nazgul__2',
+        'parent_name': 'Nazgul__(204)',
+        'sibling_name': 'Nazgul__2',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__2',
+        'parent_name': 'Nazgul__(204)',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__2',
+        'parent_name': 'Nazgul__(204)',
+        'sibling_name': 'Nazgul__4',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__2',
+        'parent_name': 'Nazgul__(203)',
+        'sibling_name': 'Nazgul__2',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__2',
+        'parent_name': 'Nazgul__(203)',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__2',
+        'parent_name': 'Nazgul__(203)',
+        'sibling_name': 'Nazgul__3',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__2',
+        'parent_name': 'Nazgul__(4(204)2)',
+        'sibling_name': 'Nazgul__4',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__2',
+        'parent_name': 'Nazgul__(4(204)2)',
+        'sibling_name': 'Nazgul__(204)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__2',
+        'parent_name': 'Nazgul__(4(204)2)',
+        'sibling_name': 'Nazgul__2',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'parent_name': 'Dragon__(4(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))((304)(2(4(03(013))1)(013))(20(03(013)))))',
+        'sibling_name': 'Dragon__4',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'parent_name': 'Dragon__(4(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))((304)(2(4(03(013))1)(013))(20(03(013)))))',
+        'sibling_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'parent_name': 'Dragon__(4(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))((304)(2(4(03(013))1)(013))(20(03(013)))))',
+        'sibling_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Hippogriff__((314)(312)((312)32))',
+        'parent_name': 'Hippogriff__(((312)32)1((314)(312)((312)32)))',
+        'sibling_name': 'Hippogriff__((312)32)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__((314)(312)((312)32))',
+        'parent_name': 'Hippogriff__(((312)32)1((314)(312)((312)32)))',
+        'sibling_name': 'Hippogriff__1',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__((314)(312)((312)32))',
+        'parent_name': 'Hippogriff__(((312)32)1((314)(312)((312)32)))',
+        'sibling_name': 'Hippogriff__((314)(312)((312)32))',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Nazgul__(03(4((203)40)0))',
+        'parent_name': 'Nazgul__(((203)40)(4(204)2)(03(4((203)40)0)))',
+        'sibling_name': 'Nazgul__((203)40)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(03(4((203)40)0))',
+        'parent_name': 'Nazgul__(((203)40)(4(204)2)(03(4((203)40)0)))',
+        'sibling_name': 'Nazgul__(4(204)2)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(03(4((203)40)0))',
+        'parent_name': 'Nazgul__(((203)40)(4(204)2)(03(4((203)40)0)))',
+        'sibling_name': 'Nazgul__(03(4((203)40)0))',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Pteranodon__(321)',
+        'parent_name': 'Pteranodon__((321)31)',
+        'sibling_name': 'Pteranodon__(321)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(321)',
+        'parent_name': 'Pteranodon__((321)31)',
+        'sibling_name': 'Pteranodon__3',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(321)',
+        'parent_name': 'Pteranodon__((321)31)',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(321)',
+        'parent_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'sibling_name': 'Pteranodon__2',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(321)',
+        'parent_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'sibling_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(321)',
+        'parent_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'sibling_name': 'Pteranodon__(321)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(321)',
+        'parent_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(321)',
+        'parent_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'sibling_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(321)',
+        'parent_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'sibling_name': 'Pteranodon__(321)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__(321)',
+        'sibling_name': 'Pteranodon__3',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__(321)',
+        'sibling_name': 'Pteranodon__2',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__(321)',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__(412)',
+        'sibling_name': 'Pteranodon__4',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__(412)',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__(412)',
+        'sibling_name': 'Pteranodon__2',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__((321)31)',
+        'sibling_name': 'Pteranodon__(321)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__((321)31)',
+        'sibling_name': 'Pteranodon__3',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__((321)31)',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'sibling_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'sibling_name': 'Pteranodon__(321)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__(1(412)((321)31))',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__(1(412)((321)31))',
+        'sibling_name': 'Pteranodon__(412)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__1',
+        'parent_name': 'Pteranodon__(1(412)((321)31))',
+        'sibling_name': 'Pteranodon__((321)31)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'parent_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'parent_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'sibling_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'parent_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'sibling_name': 'Pteranodon__(321)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'parent_name': 'Pteranodon__((412)((2(((321)31)2(412))(321))(((321)31)2(412))4)(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321)))',
+        'sibling_name': 'Pteranodon__(412)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'parent_name': 'Pteranodon__((412)((2(((321)31)2(412))(321))(((321)31)2(412))4)(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321)))',
+        'sibling_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'parent_name': 'Pteranodon__((412)((2(((321)31)2(412))(321))(((321)31)2(412))4)(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321)))',
+        'sibling_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'parent_name': 'Pteranodon__(((2(((321)31)2(412))(321))(((321)31)2(412))4)((321)31)4)',
+        'sibling_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'parent_name': 'Pteranodon__(((2(((321)31)2(412))(321))(((321)31)2(412))4)((321)31)4)',
+        'sibling_name': 'Pteranodon__((321)31)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'parent_name': 'Pteranodon__(((2(((321)31)2(412))(321))(((321)31)2(412))4)((321)31)4)',
+        'sibling_name': 'Pteranodon__4',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Dragon__(4(03(013))1)',
+        'parent_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_name': 'Dragon__2',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(4(03(013))1)',
+        'parent_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_name': 'Dragon__(4(03(013))1)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(4(03(013))1)',
+        'parent_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_name': 'Dragon__(013)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(4(03(013))1)',
+        'parent_name': 'Dragon__((2(4(03(013))1)(013))(304)(4(03(013))1))',
+        'sibling_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(4(03(013))1)',
+        'parent_name': 'Dragon__((2(4(03(013))1)(013))(304)(4(03(013))1))',
+        'sibling_name': 'Dragon__(304)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(4(03(013))1)',
+        'parent_name': 'Dragon__((2(4(03(013))1)(013))(304)(4(03(013))1))',
+        'sibling_name': 'Dragon__(4(03(013))1)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Nazgul__((203)40)',
+        'parent_name': 'Nazgul__(4((203)40)0)',
+        'sibling_name': 'Nazgul__4',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__((203)40)',
+        'parent_name': 'Nazgul__(4((203)40)0)',
+        'sibling_name': 'Nazgul__((203)40)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__((203)40)',
+        'parent_name': 'Nazgul__(4((203)40)0)',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__((203)40)',
+        'parent_name': 'Nazgul__(((203)40)(4(204)2)(03(4((203)40)0)))',
+        'sibling_name': 'Nazgul__((203)40)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__((203)40)',
+        'parent_name': 'Nazgul__(((203)40)(4(204)2)(03(4((203)40)0)))',
+        'sibling_name': 'Nazgul__(4(204)2)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__((203)40)',
+        'parent_name': 'Nazgul__(((203)40)(4(204)2)(03(4((203)40)0)))',
+        'sibling_name': 'Nazgul__(03(4((203)40)0))',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Dragon__4',
+        'parent_name': 'Dragon__(304)',
+        'sibling_name': 'Dragon__3',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__4',
+        'parent_name': 'Dragon__(304)',
+        'sibling_name': 'Dragon__0',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__4',
+        'parent_name': 'Dragon__(304)',
+        'sibling_name': 'Dragon__4',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__4',
+        'parent_name': 'Dragon__(4(03(013))1)',
+        'sibling_name': 'Dragon__4',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__4',
+        'parent_name': 'Dragon__(4(03(013))1)',
+        'sibling_name': 'Dragon__(03(013))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__4',
+        'parent_name': 'Dragon__(4(03(013))1)',
+        'sibling_name': 'Dragon__1',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__4',
+        'parent_name': 'Dragon__(4(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))((304)(2(4(03(013))1)(013))(20(03(013)))))',
+        'sibling_name': 'Dragon__4',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__4',
+        'parent_name': 'Dragon__(4(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))((304)(2(4(03(013))1)(013))(20(03(013)))))',
+        'sibling_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__4',
+        'parent_name': 'Dragon__(4(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))((304)(2(4(03(013))1)(013))(20(03(013)))))',
+        'sibling_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Hippogriff__2',
+        'parent_name': 'Hippogriff__(2(314)3)',
+        'sibling_name': 'Hippogriff__2',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__2',
+        'parent_name': 'Hippogriff__(2(314)3)',
+        'sibling_name': 'Hippogriff__(314)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__2',
+        'parent_name': 'Hippogriff__(2(314)3)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__2',
+        'parent_name': 'Hippogriff__(312)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__2',
+        'parent_name': 'Hippogriff__(312)',
+        'sibling_name': 'Hippogriff__1',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__2',
+        'parent_name': 'Hippogriff__(312)',
+        'sibling_name': 'Hippogriff__2',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__2',
+        'parent_name': 'Hippogriff__((314)2(312))',
+        'sibling_name': 'Hippogriff__(314)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__2',
+        'parent_name': 'Hippogriff__((314)2(312))',
+        'sibling_name': 'Hippogriff__2',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__2',
+        'parent_name': 'Hippogriff__((314)2(312))',
+        'sibling_name': 'Hippogriff__(312)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__2',
+        'parent_name': 'Hippogriff__((312)32)',
+        'sibling_name': 'Hippogriff__(312)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__2',
+        'parent_name': 'Hippogriff__((312)32)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__2',
+        'parent_name': 'Hippogriff__((312)32)',
+        'sibling_name': 'Hippogriff__2',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Nazgul__3',
+        'parent_name': 'Nazgul__(203)',
+        'sibling_name': 'Nazgul__2',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__3',
+        'parent_name': 'Nazgul__(203)',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__3',
+        'parent_name': 'Nazgul__(203)',
+        'sibling_name': 'Nazgul__3',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__3',
+        'parent_name': 'Nazgul__(30(4(204)2))',
+        'sibling_name': 'Nazgul__3',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__3',
+        'parent_name': 'Nazgul__(30(4(204)2))',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__3',
+        'parent_name': 'Nazgul__(30(4(204)2))',
+        'sibling_name': 'Nazgul__(4(204)2)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__3',
+        'parent_name': 'Nazgul__(03(4((203)40)0))',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__3',
+        'parent_name': 'Nazgul__(03(4((203)40)0))',
+        'sibling_name': 'Nazgul__3',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__3',
+        'parent_name': 'Nazgul__(03(4((203)40)0))',
+        'sibling_name': 'Nazgul__(4((203)40)0)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__3',
+        'parent_name': 'Nazgul__(3(203)(1(30(4(204)2))(4((203)40)0)))',
+        'sibling_name': 'Nazgul__3',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__3',
+        'parent_name': 'Nazgul__(3(203)(1(30(4(204)2))(4((203)40)0)))',
+        'sibling_name': 'Nazgul__(203)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__3',
+        'parent_name': 'Nazgul__(3(203)(1(30(4(204)2))(4((203)40)0)))',
+        'sibling_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'parent_name': 'Nazgul__(3(203)(1(30(4(204)2))(4((203)40)0)))',
+        'sibling_name': 'Nazgul__3',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'parent_name': 'Nazgul__(3(203)(1(30(4(204)2))(4((203)40)0)))',
+        'sibling_name': 'Nazgul__(203)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'parent_name': 'Nazgul__(3(203)(1(30(4(204)2))(4((203)40)0)))',
+        'sibling_name': 'Nazgul__(1(30(4(204)2))(4((203)40)0))',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Hippogriff__(312)',
+        'parent_name': 'Hippogriff__((314)2(312))',
+        'sibling_name': 'Hippogriff__(314)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(312)',
+        'parent_name': 'Hippogriff__((314)2(312))',
+        'sibling_name': 'Hippogriff__2',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(312)',
+        'parent_name': 'Hippogriff__((314)2(312))',
+        'sibling_name': 'Hippogriff__(312)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(312)',
+        'parent_name': 'Hippogriff__((312)32)',
+        'sibling_name': 'Hippogriff__(312)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(312)',
+        'parent_name': 'Hippogriff__((312)32)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(312)',
+        'parent_name': 'Hippogriff__((312)32)',
+        'sibling_name': 'Hippogriff__2',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(312)',
+        'parent_name': 'Hippogriff__((314)(312)((312)32))',
+        'sibling_name': 'Hippogriff__(314)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(312)',
+        'parent_name': 'Hippogriff__((314)(312)((312)32))',
+        'sibling_name': 'Hippogriff__(312)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(312)',
+        'parent_name': 'Hippogriff__((314)(312)((312)32))',
+        'sibling_name': 'Hippogriff__((312)32)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(312)',
+        'parent_name': 'Hippogriff__((312)10)',
+        'sibling_name': 'Hippogriff__(312)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(312)',
+        'parent_name': 'Hippogriff__((312)10)',
+        'sibling_name': 'Hippogriff__1',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__(312)',
+        'parent_name': 'Hippogriff__((312)10)',
+        'sibling_name': 'Hippogriff__0',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Nazgul__(4(204)2)',
+        'parent_name': 'Nazgul__(30(4(204)2))',
+        'sibling_name': 'Nazgul__3',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(4(204)2)',
+        'parent_name': 'Nazgul__(30(4(204)2))',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(4(204)2)',
+        'parent_name': 'Nazgul__(30(4(204)2))',
+        'sibling_name': 'Nazgul__(4(204)2)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(4(204)2)',
+        'parent_name': 'Nazgul__(((203)40)(4(204)2)(03(4((203)40)0)))',
+        'sibling_name': 'Nazgul__((203)40)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(4(204)2)',
+        'parent_name': 'Nazgul__(((203)40)(4(204)2)(03(4((203)40)0)))',
+        'sibling_name': 'Nazgul__(4(204)2)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__(4(204)2)',
+        'parent_name': 'Nazgul__(((203)40)(4(204)2)(03(4((203)40)0)))',
+        'sibling_name': 'Nazgul__(03(4((203)40)0))',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Pteranodon__(412)',
+        'parent_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_name': 'Pteranodon__((321)31)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(412)',
+        'parent_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_name': 'Pteranodon__2',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(412)',
+        'parent_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_name': 'Pteranodon__(412)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(412)',
+        'parent_name': 'Pteranodon__((412)((2(((321)31)2(412))(321))(((321)31)2(412))4)(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321)))',
+        'sibling_name': 'Pteranodon__(412)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(412)',
+        'parent_name': 'Pteranodon__((412)((2(((321)31)2(412))(321))(((321)31)2(412))4)(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321)))',
+        'sibling_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(412)',
+        'parent_name': 'Pteranodon__((412)((2(((321)31)2(412))(321))(((321)31)2(412))4)(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321)))',
+        'sibling_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(412)',
+        'parent_name': 'Pteranodon__(1(412)((321)31))',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(412)',
+        'parent_name': 'Pteranodon__(1(412)((321)31))',
+        'sibling_name': 'Pteranodon__(412)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(412)',
+        'parent_name': 'Pteranodon__(1(412)((321)31))',
+        'sibling_name': 'Pteranodon__((321)31)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(314)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(314)',
+        'sibling_name': 'Hippogriff__1',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(314)',
+        'sibling_name': 'Hippogriff__4',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(2(314)3)',
+        'sibling_name': 'Hippogriff__2',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(2(314)3)',
+        'sibling_name': 'Hippogriff__(314)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(2(314)3)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(312)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(312)',
+        'sibling_name': 'Hippogriff__1',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(312)',
+        'sibling_name': 'Hippogriff__2',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__((312)32)',
+        'sibling_name': 'Hippogriff__(312)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__((312)32)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__((312)32)',
+        'sibling_name': 'Hippogriff__2',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(3((312)32)(314))',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(3((312)32)(314))',
+        'sibling_name': 'Hippogriff__((312)32)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(3((312)32)(314))',
+        'sibling_name': 'Hippogriff__(314)',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(340)',
+        'sibling_name': 'Hippogriff__3',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(340)',
+        'sibling_name': 'Hippogriff__4',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Hippogriff__3',
+        'parent_name': 'Hippogriff__(340)',
+        'sibling_name': 'Hippogriff__0',
+        'sibling_species': 'Hippogriff'
+    },
+    {
+        'animal_name': 'Pteranodon__2',
+        'parent_name': 'Pteranodon__(321)',
+        'sibling_name': 'Pteranodon__3',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__2',
+        'parent_name': 'Pteranodon__(321)',
+        'sibling_name': 'Pteranodon__2',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__2',
+        'parent_name': 'Pteranodon__(321)',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__2',
+        'parent_name': 'Pteranodon__(412)',
+        'sibling_name': 'Pteranodon__4',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__2',
+        'parent_name': 'Pteranodon__(412)',
+        'sibling_name': 'Pteranodon__1',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__2',
+        'parent_name': 'Pteranodon__(412)',
+        'sibling_name': 'Pteranodon__2',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__2',
+        'parent_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_name': 'Pteranodon__((321)31)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__2',
+        'parent_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_name': 'Pteranodon__2',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__2',
+        'parent_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_name': 'Pteranodon__(412)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__2',
+        'parent_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'sibling_name': 'Pteranodon__2',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__2',
+        'parent_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'sibling_name': 'Pteranodon__(((321)31)2(412))',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__2',
+        'parent_name': 'Pteranodon__(2(((321)31)2(412))(321))',
+        'sibling_name': 'Pteranodon__(321)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Dragon__0',
+        'parent_name': 'Dragon__(013)',
+        'sibling_name': 'Dragon__0',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__0',
+        'parent_name': 'Dragon__(013)',
+        'sibling_name': 'Dragon__1',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__0',
+        'parent_name': 'Dragon__(013)',
+        'sibling_name': 'Dragon__3',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__0',
+        'parent_name': 'Dragon__(304)',
+        'sibling_name': 'Dragon__3',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__0',
+        'parent_name': 'Dragon__(304)',
+        'sibling_name': 'Dragon__0',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__0',
+        'parent_name': 'Dragon__(304)',
+        'sibling_name': 'Dragon__4',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__0',
+        'parent_name': 'Dragon__(03(013))',
+        'sibling_name': 'Dragon__0',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__0',
+        'parent_name': 'Dragon__(03(013))',
+        'sibling_name': 'Dragon__3',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__0',
+        'parent_name': 'Dragon__(03(013))',
+        'sibling_name': 'Dragon__(013)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__0',
+        'parent_name': 'Dragon__(20(03(013)))',
+        'sibling_name': 'Dragon__2',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__0',
+        'parent_name': 'Dragon__(20(03(013)))',
+        'sibling_name': 'Dragon__0',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__0',
+        'parent_name': 'Dragon__(20(03(013)))',
+        'sibling_name': 'Dragon__(03(013))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'parent_name': 'Pteranodon__((412)((2(((321)31)2(412))(321))(((321)31)2(412))4)(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321)))',
+        'sibling_name': 'Pteranodon__(412)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'parent_name': 'Pteranodon__((412)((2(((321)31)2(412))(321))(((321)31)2(412))4)(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321)))',
+        'sibling_name': 'Pteranodon__((2(((321)31)2(412))(321))(((321)31)2(412))4)',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'parent_name': 'Pteranodon__((412)((2(((321)31)2(412))(321))(((321)31)2(412))4)(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321)))',
+        'sibling_name': 'Pteranodon__(1((2(((321)31)2(412))(321))(((321)31)2(412))4)(321))',
+        'sibling_species': 'Pteranodon'
+    },
+    {
+        'animal_name': 'Dragon__(20(03(013)))',
+        'parent_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_name': 'Dragon__(304)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(20(03(013)))',
+        'parent_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(20(03(013)))',
+        'parent_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_name': 'Dragon__(20(03(013)))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(20(03(013)))',
+        'parent_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'sibling_name': 'Dragon__2',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(20(03(013)))',
+        'parent_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'sibling_name': 'Dragon__((304)(2(4(03(013))1)(013))(20(03(013))))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(20(03(013)))',
+        'parent_name': 'Dragon__(2((304)(2(4(03(013))1)(013))(20(03(013))))(20(03(013))))',
+        'sibling_name': 'Dragon__(20(03(013)))',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(013)',
+        'parent_name': 'Dragon__(03(013))',
+        'sibling_name': 'Dragon__0',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(013)',
+        'parent_name': 'Dragon__(03(013))',
+        'sibling_name': 'Dragon__3',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(013)',
+        'parent_name': 'Dragon__(03(013))',
+        'sibling_name': 'Dragon__(013)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(013)',
+        'parent_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_name': 'Dragon__2',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(013)',
+        'parent_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_name': 'Dragon__(4(03(013))1)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Dragon__(013)',
+        'parent_name': 'Dragon__(2(4(03(013))1)(013))',
+        'sibling_name': 'Dragon__(013)',
+        'sibling_species': 'Dragon'
+    },
+    {
+        'animal_name': 'Nazgul__4',
+        'parent_name': 'Nazgul__(204)',
+        'sibling_name': 'Nazgul__2',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__4',
+        'parent_name': 'Nazgul__(204)',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__4',
+        'parent_name': 'Nazgul__(204)',
+        'sibling_name': 'Nazgul__4',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__4',
+        'parent_name': 'Nazgul__((203)40)',
+        'sibling_name': 'Nazgul__(203)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__4',
+        'parent_name': 'Nazgul__((203)40)',
+        'sibling_name': 'Nazgul__4',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__4',
+        'parent_name': 'Nazgul__((203)40)',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__4',
+        'parent_name': 'Nazgul__(4(204)2)',
+        'sibling_name': 'Nazgul__4',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__4',
+        'parent_name': 'Nazgul__(4(204)2)',
+        'sibling_name': 'Nazgul__(204)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__4',
+        'parent_name': 'Nazgul__(4(204)2)',
+        'sibling_name': 'Nazgul__2',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__4',
+        'parent_name': 'Nazgul__(4((203)40)0)',
+        'sibling_name': 'Nazgul__4',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__4',
+        'parent_name': 'Nazgul__(4((203)40)0)',
+        'sibling_name': 'Nazgul__((203)40)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__4',
+        'parent_name': 'Nazgul__(4((203)40)0)',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(204)',
+        'sibling_name': 'Nazgul__2',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(204)',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(204)',
+        'sibling_name': 'Nazgul__4',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(203)',
+        'sibling_name': 'Nazgul__2',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(203)',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(203)',
+        'sibling_name': 'Nazgul__3',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__((203)40)',
+        'sibling_name': 'Nazgul__(203)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__((203)40)',
+        'sibling_name': 'Nazgul__4',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__((203)40)',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(30(4(204)2))',
+        'sibling_name': 'Nazgul__3',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(30(4(204)2))',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(30(4(204)2))',
+        'sibling_name': 'Nazgul__(4(204)2)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(4((203)40)0)',
+        'sibling_name': 'Nazgul__4',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(4((203)40)0)',
+        'sibling_name': 'Nazgul__((203)40)',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(4((203)40)0)',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(03(4((203)40)0))',
+        'sibling_name': 'Nazgul__0',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(03(4((203)40)0))',
+        'sibling_name': 'Nazgul__3',
+        'sibling_species': 'Nazgul'
+    },
+    {
+        'animal_name': 'Nazgul__0',
+        'parent_name': 'Nazgul__(03(4((203)40)0))',
+        'sibling_name': 'Nazgul__(4((203)40)0)',
+        'sibling_species': 'Nazgul'
+    }
+]

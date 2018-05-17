@@ -60,3 +60,11 @@ class OrientdbMatchQueryTests(TestCase):
         rows = execute_graphql(self.schema, test_data, self.graph_client)
 
         self.assertMatchSnapshot(rows)
+
+    @pytest.mark.usefixtures('test_db')
+    def test_optional_and_deep_traverse(self):
+        test_data = test_input_data.optional_and_deep_traverse()
+
+        rows = execute_graphql(self.schema, test_data, self.graph_client)
+
+        self.assertMatchSnapshot(rows)
