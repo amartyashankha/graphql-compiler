@@ -20,6 +20,17 @@ CREATE INDEX Entity.alias NOTUNIQUE
 CREATE PROPERTY Entity.description String
 ###############
 
+### Event ###
+CREATE CLASS Event EXTENDS Entity
+
+CREATE PROPERTY Event.event_date Date
+CREATE INDEX Event.event_date NOTUNIQUE
+###############
+
+### BirthEvent ###
+CREATE CLASS BirthEvent EXTENDS Event
+###############
+
 ### Animal ###
 CREATE CLASS Animal EXTENDS Entity
 
@@ -33,6 +44,21 @@ CREATE CLASS Animal_ParentOf EXTENDS E
 CREATE PROPERTY Animal_ParentOf.out LINK Animal
 CREATE PROPERTY Animal_ParentOf.in LINK Animal
 CREATE INDEX Animal_ParentOf ON Animal_ParentOf (in, out) UNIQUE_HASH_INDEX
+
+CREATE CLASS Animal_FedAt EXTENDS E
+CREATE PROPERTY Animal_FedAt.in LINK Event
+CREATE PROPERTY Animal_FedAt.out LINK Animal
+CREATE INDEX Animal_FedAt ON Animal_FedAt (in, out) UNIQUE_HASH_INDEX
+
+CREATE CLASS Animal_ImportantEvent EXTENDS E
+CREATE PROPERTY Animal_ImportantEvent.in LINK Event
+CREATE PROPERTY Animal_ImportantEvent.out LINK Animal
+CREATE INDEX Animal_ImportantEvent ON Animal_ImportantEvent (in, out) UNIQUE_HASH_INDEX
+
+CREATE CLASS Animal_BornAt EXTENDS E
+CREATE PROPERTY Animal_BornAt.in LINK Event
+CREATE PROPERTY Animal_BornAt.out LINK Animal
+CREATE INDEX Animal_BornAt ON Animal_BornAt (in, out) UNIQUE_HASH_INDEX
 ###############
 
 ### Species ###
@@ -51,3 +77,4 @@ CREATE PROPERTY Animal_OfSpecies.in LINK Species
 CREATE PROPERTY Animal_OfSpecies.out LINK Animal
 CREATE INDEX Animal_OfSpecies ON Animal_OfSpecies (in, out) UNIQUE_HASH_INDEX
 ###############
+
