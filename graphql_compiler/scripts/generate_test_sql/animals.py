@@ -9,10 +9,17 @@ NUM_INITIAL_ANIMALS = 5
 NUM_GENERATIONS = 10
 NUM_PARENTS = 3
 
+COLOR_LIST = [
+    'red',
+    'blue',
+    'green',
+]
+
 
 def _create_animal_statement(animal_name):
     """Return a SQL statement to create an animal vertex."""
-    fields_dict = {'name': animal_name, 'uuid': get_uuid()}
+    animal_color = random.choice(COLOR_LIST)
+    fields_dict = {'name': animal_name, 'color': animal_color, 'uuid': get_uuid()}
     return create_vertex_statement('Animal', fields_dict)
 
 

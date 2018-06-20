@@ -685,7 +685,7 @@ def filter_within_recurse():
         expected_output_metadata=expected_output_metadata,
         expected_input_metadata=expected_input_metadata,
         type_equivalence_hints=None,
-        sample_parameters={})
+        sample_parameters={'wanted': 'red'})
 
 
 def recurse_with_immediate_type_coercion():
