@@ -102,10 +102,10 @@ def get_animal_generators():
 
         for _ in range(NUM_GENERATIONS):
             new_parent_names = _get_new_parents(current_animal_names, previous_parent_sets)
-            previous_parent_sets.add(parent_names)
+            previous_parent_sets.add(new_parent_names)
 
             new_animal_generator_list, new_animal_names = _create_animal_from_parent(
-                parent_names, species_name)
+                new_parent_names, species_name)
             generator_list.extend(new_animal_generator_list)
             current_animal_names.extend(new_animal_names)
 
